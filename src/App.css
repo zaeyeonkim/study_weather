@@ -1,0 +1,24 @@
+body {
+  background: url(https://images.pexels.com/photos/1229042/pexels-photo-1229042.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+.weather-box {
+  border: 3px solid aquamarine;
+  padding: 50px;
+  border-radius: 30px;
+  background-color: aquamarine;
+  margin-bottom: 10px;
+}
+.btn {
+  margin: 10px;
+}
